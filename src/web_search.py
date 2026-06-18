@@ -1,4 +1,4 @@
-def search_web(claim):
+def search_web(claim, tavily_client):
 
     response = tavily_client.search(
 
